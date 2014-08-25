@@ -1,4 +1,4 @@
 PCDanmakuFlameMaster
 ====================
 
-A pc port version of DanmakuFlameMaster, still under initializing.
+PC port of [DanmakuFlameMaster](https://github.com/ctiao/DanmakuFlameMaster), still under initializing.
