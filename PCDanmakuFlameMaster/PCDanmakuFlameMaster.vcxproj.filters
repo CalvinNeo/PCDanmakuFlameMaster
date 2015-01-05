@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="controller">
+      <UniqueIdentifier>{8d589473-cee9-48da-b44a-7e7674bd4006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{da1b619f-b6b0-4ee8-b3a3-5de52d8bfc35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="loader">
+      <UniqueIdentifier>{8ffcd1a7-fff4-48c0-9200-9330ebf98997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="model">
+      <UniqueIdentifier>{06c13054-71e4-4839-baf6-f83f1fec0ca5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="parser">
+      <UniqueIdentifier>{3c6e651f-eec0-45e5-a77e-ec4573a04c79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer">
+      <UniqueIdentifier>{c0c577f2-c028-45cc-a955-038db9b77149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd-party">
+      <UniqueIdentifier>{891cdb8d-597d-4747-aade-e340dc48339d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{d9fbecdc-1f09-496d-b97a-879e4db3c713}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\skia">
+      <UniqueIdentifier>{77b3b3db-11fa-43f8-b290-fb6bfa63a7ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="model\skia">
+      <UniqueIdentifier>{9673ddaa-99ed-4b88-9d6f-abd65fed9afd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="model\danmaku">
+      <UniqueIdentifier>{560a7e48-ffe0-4022-9537-dc5aabb7d0cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="parser\Resolver">
+      <UniqueIdentifier>{55f42e5a-0411-4925-aa8d-1965363416a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="parser\DataSource">
+      <UniqueIdentifier>{a24a6d8a-e59c-4ef9-a162-32a1d10af9c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\Retainer">
+      <UniqueIdentifier>{6bcfb724-025a-4cd1-b4e2-6eb58c55e210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="renderer\Renderer">
+      <UniqueIdentifier>{0d2e9fee-7f48-4e86-8bb6-bb359ee1d0e3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="controller\DrawHandler.hpp">
+      <Filter>controller</Filter>
+    </ClInclude>
+    <ClInclude Include="controller\Handler.hpp">
+      <Filter>controller</Filter>
+    </ClInclude>
+    <ClInclude Include="parser\DanmakuFactory.hpp">
+      <Filter>parser</Filter>
+    </ClInclude>
+    <ClInclude Include="model\DanmakuTimer.hpp">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\AlphaValue.hpp">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\Duration.hpp">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\GlobalFlagValues.hpp">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="PCDFM.hpp" />
+    <ClInclude Include="ui\DanmakuView.hpp">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="model\AbsDisplayer.hpp">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\IDisplayer.hpp">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\Rect.hpp">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="model\SkDisplayer.hpp">
+      <Filter>model\skia</Filter>
+    </ClInclude>
+    <ClInclude Include="model\FBDanmaku.hpp">
+      <Filter>model\danmaku</Filter>
+    </ClInclude>
+    <ClInclude Include="model\FTDanmaku.hpp">
+      <Filter>model\danmaku</Filter>
+    </ClInclude>
+    <ClInclude Include="model\L2RDanmaku.hpp">
+      <Filter>model\danmaku</Filter>
+    </ClInclude>
+    <ClInclude Include="model\R2LDanmaku.hpp">
+      <Filter>model\danmaku</Filter>
+    </ClInclude>
+    <ClInclude Include="model\BaseDanmaku.hpp">
+      <Filter>model\danmaku</Filter>
+    </ClInclude>
+    <ClInclude Include="model\Danmakus.hpp">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\DanmakuUtils.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="model\SpecialDanmaku.hpp">
+      <Filter>model\danmaku</Filter>
+    </ClInclude>
+    <ClInclude Include="model\DanmakuGlobalConfig.hpp">
+      <Filter>model\skia</Filter>
+    </ClInclude>
+    <ClInclude Include="SkiaAssembly.hpp" />
+    <ClInclude Include="model\DrawingCacheHolder.hpp">
+      <Filter>model\skia</Filter>
+    </ClInclude>
+    <ClInclude Include="controller\DrawTask.hpp">
+      <Filter>controller</Filter>
+    </ClInclude>
+    <ClInclude Include="model\Danmaku.hpp">
+      <Filter>model\danmaku</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\StringUtils.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="model\DrawingCache.hpp">
+      <Filter>model\skia</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\Interface.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities\HighResolutionClock.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="parser\AcFunDanmakuParser.hpp">
+      <Filter>parser\Resolver</Filter>
+    </ClInclude>
+    <ClInclude Include="parser\BiliDanmakuParser.hpp">
+      <Filter>parser\Resolver</Filter>
+    </ClInclude>
+    <ClInclude Include="parser\BaseDanmakuParser.hpp">
+      <Filter>parser\Resolver</Filter>
+    </ClInclude>
+    <ClInclude Include="parser\IDataSource.hpp">
+      <Filter>parser\DataSource</Filter>
+    </ClInclude>
+    <ClInclude Include="parser\RapidXmlDataSource.hpp">
+      <Filter>parser\DataSource</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\DanmakusRetainer.hpp">
+      <Filter>renderer\Retainer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\FBDanmakusRetainer.hpp">
+      <Filter>renderer\Retainer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\FTDanmakusRetainer.hpp">
+      <Filter>renderer\Retainer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\IDanmakusRetainer.hpp">
+      <Filter>renderer\Retainer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\RLDanmakusRetainer.hpp">
+      <Filter>renderer\Retainer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\DanmakuRenderer.hpp">
+      <Filter>renderer\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer\IRenderer.hpp">
+      <Filter>renderer\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="controller\DrawHelper.hpp">
+      <Filter>controller</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="controller\DrawHandler.cpp">
+      <Filter>controller</Filter>
+    </ClCompile>
+    <ClCompile Include="controller\Handler.cpp">
+      <Filter>controller</Filter>
+    </ClCompile>
+    <ClCompile Include="parser\DanmakuFactory.cpp">
+      <Filter>parser</Filter>
+    </ClCompile>
+    <ClCompile Include="ui\DanmakuView.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="model\SkDisplayer.cpp">
+      <Filter>model\skia</Filter>
+    </ClCompile>
+    <ClCompile Include="model\FBDanmaku.cpp">
+      <Filter>model\danmaku</Filter>
+    </ClCompile>
+    <ClCompile Include="model\FTDanmaku.cpp">
+      <Filter>model\danmaku</Filter>
+    </ClCompile>
+    <ClCompile Include="model\L2RDanmaku.cpp">
+      <Filter>model\danmaku</Filter>
+    </ClCompile>
+    <ClCompile Include="model\R2LDanmaku.cpp">
+      <Filter>model\danmaku</Filter>
+    </ClCompile>
+    <ClCompile Include="model\DanmakuIterator.cpp">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="model\Danmakus.cpp">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="controller\DrawTask.cpp">
+      <Filter>controller</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\DanmakuUtils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="model\SpecialDanmaku.cpp">
+      <Filter>model\danmaku</Filter>
+    </ClCompile>
+    <ClCompile Include="model\DanmakuGlobalConfig.cpp">
+      <Filter>model\skia</Filter>
+    </ClCompile>
+    <ClCompile Include="model\DrawingCacheHolder.cpp">
+      <Filter>model\skia</Filter>
+    </ClCompile>
+    <ClCompile Include="model\GlobalFlagValues.cpp">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="model\BaseDanmaku.cpp">
+      <Filter>model\danmaku</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\StringUtils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="model\DrawingCache.cpp">
+      <Filter>model\skia</Filter>
+    </ClCompile>
+    <ClCompile Include="utilities\HighResolutionClockWin32.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="parser\AcFunDanmakuParser.cpp">
+      <Filter>parser\Resolver</Filter>
+    </ClCompile>
+    <ClCompile Include="parser\BiliDanmakuParser.cpp">
+      <Filter>parser\Resolver</Filter>
+    </ClCompile>
+    <ClCompile Include="parser\BaseDanmakuParser.cpp">
+      <Filter>parser\Resolver</Filter>
+    </ClCompile>
+    <ClCompile Include="parser\RapidXmlDataSource.cpp">
+      <Filter>parser\DataSource</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\DanmakusRetainer.cpp">
+      <Filter>renderer\Retainer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\FBDanmakusRetainer.cpp">
+      <Filter>renderer\Retainer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\FTDanmakusRetainer.cpp">
+      <Filter>renderer\Retainer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\RLDanmakusRetainer.cpp">
+      <Filter>renderer\Retainer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\DanmakuRenderer.cpp">
+      <Filter>renderer\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer\IRenderer.cpp">
+      <Filter>renderer\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="controller\DrawHelper.cpp">
+      <Filter>controller</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

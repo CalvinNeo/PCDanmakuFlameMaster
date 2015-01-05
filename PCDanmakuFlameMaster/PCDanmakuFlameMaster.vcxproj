@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{15C1ACB6-13FC-4097-BEF9-53E178EFEAF2}</ProjectGuid>
+    <RootNamespace>PCDanmakuFlameMaster</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(ProjectDir)3rdparty;$(ProjectDir)3rdparty\skia\animator;$(ProjectDir)3rdparty\skia\c;$(ProjectDir)3rdparty\skia\config;$(ProjectDir)3rdparty\skia\core;$(ProjectDir)3rdparty\skia\effects;$(ProjectDir)3rdparty\skia\gpu;$(ProjectDir)3rdparty\skia\gpu\gl;$(ProjectDir)3rdparty\skia\images;$(ProjectDir)3rdparty\skia\pathops;$(ProjectDir)3rdparty\skia\pipe;$(ProjectDir)3rdparty\skia\ports;$(ProjectDir)3rdparty\skia\svg;$(ProjectDir)3rdparty\skia\utils;$(ProjectDir)3rdparty\skia\views;$(ProjectDir)3rdparty\skia\xml;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(ProjectDir)3rdparty;$(ProjectDir)3rdparty\skia\animator;$(ProjectDir)3rdparty\skia\c;$(ProjectDir)3rdparty\skia\config;$(ProjectDir)3rdparty\skia\core;$(ProjectDir)3rdparty\skia\effects;$(ProjectDir)3rdparty\skia\gpu;$(ProjectDir)3rdparty\skia\gpu\gl;$(ProjectDir)3rdparty\skia\images;$(ProjectDir)3rdparty\skia\pathops;$(ProjectDir)3rdparty\skia\pipe;$(ProjectDir)3rdparty\skia\ports;$(ProjectDir)3rdparty\skia\svg;$(ProjectDir)3rdparty\skia\utils;$(ProjectDir)3rdparty\skia\views;$(ProjectDir)3rdparty\skia\xml;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(ProjectDir)3rdparty;$(ProjectDir)3rdparty\skia\animator;$(ProjectDir)3rdparty\skia\c;$(ProjectDir)3rdparty\skia\config;$(ProjectDir)3rdparty\skia\core;$(ProjectDir)3rdparty\skia\effects;$(ProjectDir)3rdparty\skia\gpu;$(ProjectDir)3rdparty\skia\gpu\gl;$(ProjectDir)3rdparty\skia\images;$(ProjectDir)3rdparty\skia\pathops;$(ProjectDir)3rdparty\skia\pipe;$(ProjectDir)3rdparty\skia\ports;$(ProjectDir)3rdparty\skia\svg;$(ProjectDir)3rdparty\skia\utils;$(ProjectDir)3rdparty\skia\views;$(ProjectDir)3rdparty\skia\xml;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(ProjectDir)3rdparty;$(ProjectDir)3rdparty\skia\animator;$(ProjectDir)3rdparty\skia\c;$(ProjectDir)3rdparty\skia\config;$(ProjectDir)3rdparty\skia\core;$(ProjectDir)3rdparty\skia\effects;$(ProjectDir)3rdparty\skia\gpu;$(ProjectDir)3rdparty\skia\gpu\gl;$(ProjectDir)3rdparty\skia\images;$(ProjectDir)3rdparty\skia\pathops;$(ProjectDir)3rdparty\skia\pipe;$(ProjectDir)3rdparty\skia\ports;$(ProjectDir)3rdparty\skia\svg;$(ProjectDir)3rdparty\skia\utils;$(ProjectDir)3rdparty\skia\views;$(ProjectDir)3rdparty\skia\xml;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="controller\DrawHandler.hpp" />
+    <ClInclude Include="controller\DrawHelper.hpp" />
+    <ClInclude Include="controller\DrawTask.hpp" />
+    <ClInclude Include="controller\Handler.hpp" />
+    <ClInclude Include="model\AbsDisplayer.hpp" />
+    <ClInclude Include="model\Danmaku.hpp" />
+    <ClInclude Include="model\DanmakuGlobalConfig.hpp" />
+    <ClInclude Include="model\Danmakus.hpp" />
+    <ClInclude Include="model\DrawingCache.hpp" />
+    <ClInclude Include="model\DrawingCacheHolder.hpp" />
+    <ClInclude Include="model\FBDanmaku.hpp" />
+    <ClInclude Include="model\FTDanmaku.hpp" />
+    <ClInclude Include="model\IDisplayer.hpp" />
+    <ClInclude Include="model\L2RDanmaku.hpp" />
+    <ClInclude Include="model\R2LDanmaku.hpp" />
+    <ClInclude Include="model\Rect.hpp" />
+    <ClInclude Include="model\SkDisplayer.hpp" />
+    <ClInclude Include="model\SpecialDanmaku.hpp" />
+    <ClInclude Include="parser\AcFunDanmakuParser.hpp" />
+    <ClInclude Include="parser\BaseDanmakuParser.hpp" />
+    <ClInclude Include="parser\IDataSource.hpp" />
+    <ClInclude Include="parser\RapidXmlDataSource.hpp" />
+    <ClInclude Include="PCDFM.hpp" />
+    <ClInclude Include="model\AlphaValue.hpp" />
+    <ClInclude Include="model\BaseDanmaku.hpp" />
+    <ClInclude Include="model\DanmakuTimer.hpp" />
+    <ClInclude Include="model\Duration.hpp" />
+    <ClInclude Include="model\GlobalFlagValues.hpp" />
+    <ClInclude Include="parser\BiliDanmakuParser.hpp" />
+    <ClInclude Include="parser\DanmakuFactory.hpp" />
+    <ClInclude Include="renderer\DanmakuRenderer.hpp" />
+    <ClInclude Include="renderer\DanmakusRetainer.hpp" />
+    <ClInclude Include="renderer\FBDanmakusRetainer.hpp" />
+    <ClInclude Include="renderer\FTDanmakusRetainer.hpp" />
+    <ClInclude Include="renderer\IDanmakusRetainer.hpp" />
+    <ClInclude Include="renderer\IRenderer.hpp" />
+    <ClInclude Include="renderer\RLDanmakusRetainer.hpp" />
+    <ClInclude Include="SkiaAssembly.hpp" />
+    <ClInclude Include="ui\DanmakuView.hpp" />
+    <ClInclude Include="utilities\DanmakuUtils.hpp" />
+    <ClInclude Include="utilities\HighResolutionClock.hpp" />
+    <ClInclude Include="utilities\Interface.hpp" />
+    <ClInclude Include="utilities\StringUtils.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="controller\DrawHandler.cpp" />
+    <ClCompile Include="controller\DrawHelper.cpp" />
+    <ClCompile Include="controller\DrawTask.cpp" />
+    <ClCompile Include="controller\Handler.cpp" />
+    <ClCompile Include="model\BaseDanmaku.cpp" />
+    <ClCompile Include="model\DanmakuGlobalConfig.cpp" />
+    <ClCompile Include="model\DanmakuIterator.cpp" />
+    <ClCompile Include="model\Danmakus.cpp" />
+    <ClCompile Include="model\DrawingCache.cpp" />
+    <ClCompile Include="model\DrawingCacheHolder.cpp" />
+    <ClCompile Include="model\FBDanmaku.cpp" />
+    <ClCompile Include="model\FTDanmaku.cpp" />
+    <ClCompile Include="model\GlobalFlagValues.cpp" />
+    <ClCompile Include="model\L2RDanmaku.cpp" />
+    <ClCompile Include="model\R2LDanmaku.cpp" />
+    <ClCompile Include="model\SkDisplayer.cpp" />
+    <ClCompile Include="model\SpecialDanmaku.cpp" />
+    <ClCompile Include="parser\AcFunDanmakuParser.cpp" />
+    <ClCompile Include="parser\BaseDanmakuParser.cpp" />
+    <ClCompile Include="parser\BiliDanmakuParser.cpp" />
+    <ClCompile Include="parser\DanmakuFactory.cpp" />
+    <ClCompile Include="parser\RapidXmlDataSource.cpp" />
+    <ClCompile Include="renderer\DanmakuRenderer.cpp" />
+    <ClCompile Include="renderer\DanmakusRetainer.cpp" />
+    <ClCompile Include="renderer\FBDanmakusRetainer.cpp" />
+    <ClCompile Include="renderer\FTDanmakusRetainer.cpp" />
+    <ClCompile Include="renderer\IRenderer.cpp" />
+    <ClCompile Include="renderer\RLDanmakusRetainer.cpp" />
+    <ClCompile Include="ui\DanmakuView.cpp" />
+    <ClCompile Include="utilities\DanmakuUtils.cpp" />
+    <ClCompile Include="utilities\HighResolutionClockWin32.cpp" />
+    <ClCompile Include="utilities\StringUtils.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

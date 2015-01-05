@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{5a630ab9-745c-4199-a927-05179bfcec2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rd-party">
+      <UniqueIdentifier>{5eba179b-d2ae-4f15-a523-5ca809c07306}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoWindow.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="SkWindowHelper.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="SkStupidView.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="TestDanmakuView.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DemoWindow.hpp">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="Assembly.hpp">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="GLSL.hpp">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="SkiaAssembly.hpp">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="SkWindowHelper.hpp">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.hpp">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="SkStupidView.hpp">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="TestDanmakuView.hpp">
+      <Filter>source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
